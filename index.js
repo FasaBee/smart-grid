@@ -1,6 +1,6 @@
 module.exports = function (dest, options) {
     try {
-        let root = __dirname;
+        let root = __maname;
         let fs = require('fs');
         let defaults = require('./system/defaults/settings.js');
 
